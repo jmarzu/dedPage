@@ -1,6 +1,13 @@
 body {
-  
+  /*background-color: black;*/
+  background-image:
+    radial-gradient(
+      black,
+      #1A1A1A
+    );
 }
+
+
 
 .mainNav {
   background-color: black;
@@ -12,8 +19,15 @@ body {
 
 .titleImage {
   text-align: center;
+  margin-top: 150px;
+}
+
+.titleImage img {
+  border-radius: 100%;
+  
 }
 
 h1, h2 {
   text-align: center;
+  color: white;
 }
