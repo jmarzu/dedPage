@@ -1,12 +1,21 @@
 body {
   /*background-color: black;*/
-  background-image:
+  /*background-image:
     radial-gradient(
       black,
       #1A1A1A
-    );
+    );*/
 }
 
+.titleImage {
+  display: block;
+  background: black;
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+  margin: 0;
+  background: radial-gradient(circle at 100px 100px, #5cabff, #000);
+}
 
 
 .mainNav {
