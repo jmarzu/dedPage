@@ -1,42 +1,41 @@
 body {
   /*background-color: black;*/
-  /*background-image:
+  background-image:
     radial-gradient(
       black,
-      #1A1A1A
-    );*/
+      grey
+    );
 }
 
-.titleImage {
-  display: block;
-  background: black;
-  border-radius: 50%;
-  height: 300px;
-  width: 300px;
-  margin: 0;
-  background: radial-gradient(circle at 100px 100px, #5cabff, #000);
+.main-page-img__container {
+  text-align: center;
+  /*background: radial-gradient(circle at 100px 100px, #5cabff, #000);*/
 }
 
+.main-page-img {
+  width: 50%;
+}
+
+p {
+  color: white;
+  font-size: 18px;
+  text-align: center;
+}
 
 .mainNav {
   background-color: black;
 }
 
-.brand-logo {
-  margin-left: 10px;
-}
-
-.titleImage {
-  text-align: center;
-  margin-top: 150px;
-}
-
-.titleImage img {
-  border-radius: 100%;
-  
-}
-
 h1, h2 {
   text-align: center;
   color: white;
+}
+
+.social-media__links {
+  display: flex;
+  justify-content: space-around;
+}
+
+.ghost-riches__link {
+  font-size: 25px;
 }

@@ -1,10 +1,8 @@
+// not being used
 var express = require('express');
 var bodyParser = require('body-parser');
 var path = require('path');
 var app = express();
-
-var mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost/dedPage');
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
