@@ -1,2 +1,1 @@
-## DedElectric's Website
 # dedPage
