@@ -7,6 +7,10 @@ body {
     );
 }
 
+.warning__title {
+  color: red;
+}
+
 .main-page-img__container {
   text-align: center;
 }
