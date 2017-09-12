@@ -1,10 +1,44 @@
 body {
-  background:
-    radial-gradient(
-      lightgrey,
-      black
-    );
+  background: url('/img/wireFrames/dedBackground.png') no-repeat center center;
+  background-size: cover;
 }
+
+/* Navbar */
+
+.ded-page__nav {
+  /*display: flex;
+  justify-content: flex-start;
+  align-items: center;*/
+  background-color: black;
+  margin: 0 auto;
+}
+
+nav .dedBrand {
+  color: white;
+}
+
+nav div a {
+  color: white;
+}
+
+/* Hero 1 */
+
+.ded__hero1 {
+  position: relative;
+}
+
+.ded-hero1__img {
+  width: 100%;
+}
+
+.ded-hero1__copy {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+}
+
+/* Band Section */
 
 .warning__title {
   color: red;
@@ -24,10 +58,6 @@ p {
   color: white;
   font-size: 18px;
   text-align: center;
-}
-
-.mainNav {
-  background-color: black;
 }
 
 h1, h2 {
