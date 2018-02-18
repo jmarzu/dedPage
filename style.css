@@ -7,11 +7,6 @@ body {
     );
 }
 
-.warning__title {
-  color: red;
-  background-color: white; 
-}
-
 .main-page-img__container {
   text-align: center;
 }
